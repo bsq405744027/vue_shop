@@ -15,10 +15,7 @@ module.exports = {
     'no-console': 'off',
     indent: ['error', 2, { SwitchCase: 1 }],
     semi: 0,
-    'space-before-function-paren': [
-      'error',
-      { anonymous: 'always', named: 'never' }
-    ],
+    "space-before-function-paren": 0,
     'generator-star-spacing': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
